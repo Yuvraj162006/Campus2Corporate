@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" role="img" aria-labelledby="title desc">
+  <title id="title">connectifyX</title>
+  <desc id="desc">connectifyX education and career connection wordmark</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123f78" />
+      <stop offset="1" stop-color="#071b41" />
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5d22da" />
+      <stop offset="1" stop-color="#8b25ed" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 5)">
+    <rect width="70" height="70" rx="19" fill="#f7f3ff" stroke="#6b2be5" stroke-width="2.5" />
+    <path d="M12 29 35 16l24 11-23 10-24-8Z" fill="url(#navy)" />
+    <path d="M19 32v14" stroke="#071b41" stroke-width="2.5" />
+    <path d="M16 47c4 2 8 2 12 0l-2 10-4 5-4-5 2-10Z" fill="#071b41" />
+    <path d="M22 39c7-10 23-11 34-1" fill="none" stroke="#168de0" stroke-width="3.5" />
+    <path d="M20 43c-7 12-2 23 10 27 12 4 25-2 29-14" fill="none" stroke="url(#navy)" stroke-width="4.5" stroke-linecap="round" />
+    <circle cx="58" cy="29" r="5" fill="#168de0" />
+    <circle cx="28" cy="64" r="4.5" fill="#6b2be5" />
+    <circle cx="36" cy="43" r="4" fill="#153d76" />
+    <circle cx="26" cy="47" r="3" fill="#2448d8" />
+    <circle cx="47" cy="47" r="3" fill="#2448d8" />
+    <path d="M32 55c0-5 3-8 6-8s6 3 6 8v8H32v-8Z" fill="#071b41" />
+    <path d="M24 56c0-4 2-6 5-6s5 2 5 6v6H24v-6Zm23 0c0-4 2-6 5-6s5 2 5 6v6H47v-6Z" fill="#2448d8" />
+    <path d="m49 38 9 12-9 12h7l6-8 6 8h7l-9-12 9-12h-7l-6 8-6-8h-7Z" fill="url(#violet)" />
+  </g>
+  <text x="88" y="51" font-family="Trebuchet MS, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-1.5" fill="#071b41">connectify<tspan fill="url(#violet)">X</tspan></text>
+</svg>

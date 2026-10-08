@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">connectifyX</title>
+  <desc id="desc">connectifyX education and career connection logo</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123f78" />
+      <stop offset="1" stop-color="#071b41" />
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00a4ec" />
+      <stop offset="1" stop-color="#1644c8" />
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5d22da" />
+      <stop offset="1" stop-color="#8b25ed" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(12 8)">
+    <path d="M20 49 100 12l82 28-79 30-83-21Z" fill="url(#navy)" />
+    <path d="M40 55v43" stroke="#0b2450" stroke-width="5" />
+    <path d="M34 99c7 3 13 3 20 0l-4 22-7 10-7-10 4-22Z" fill="#0b2450" />
+    <path d="M57 60c23-34 78-37 113-4" fill="none" stroke="url(#blue)" stroke-width="10" />
+    <path d="M52 72c-27 36-15 82 28 99 39 16 85-2 101-39" fill="none" stroke="url(#navy)" stroke-width="12" stroke-linecap="round" />
+    <path d="M71 166c41 24 92 8 110-32" fill="none" stroke="url(#violet)" stroke-width="7" stroke-linecap="round" />
+    <circle cx="188" cy="47" r="16" fill="#087ed7" />
+    <circle cx="63" cy="167" r="14" fill="#5520c8" />
+    <circle cx="121" cy="101" r="13" fill="#123f78" />
+    <circle cx="87" cy="112" r="9" fill="#2144d8" />
+    <circle cx="155" cy="112" r="9" fill="#2144d8" />
+    <path d="M106 132c0-12 8-20 15-20s15 8 15 20v22h-30v-22Z" fill="#071b41" />
+    <path d="M75 134c0-10 6-16 12-16s12 6 12 16v17H75v-17Zm68 0c0-10 6-16 12-16s12 6 12 16v17h-24v-17Z" fill="#2144d8" />
+    <path d="m175 77 30 39-30 39h22l20-25 20 25h22l-31-39 30-39h-22l-19 25-19-25h-23Z" fill="url(#violet)" />
+  </g>
+
+  <text x="235" y="112" font-family="Trebuchet MS, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2" fill="#071b41">connectify<tspan fill="url(#violet)">X</tspan></text>
+  <text x="238" y="143" font-family="Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="5" fill="#243555">LEARN  •  GROW  •  CONNECT  •  GET HIRED</text>
+  <path d="M238 160h282" stroke="url(#violet)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="238" cy="160" r="3.5" fill="#7c2de8" />
+  <circle cx="379" cy="160" r="7" fill="#2549d9" />
+  <circle cx="520" cy="160" r="3.5" fill="#176fe4" />
+</svg>

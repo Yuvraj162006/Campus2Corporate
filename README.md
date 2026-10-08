@@ -1,73 +1,92 @@
-# React + TypeScript + Vite
+# Campus2Corporate 🎓💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A Full-Stack Placement Management Platform
 
-Currently, two official plugins are available:
+Campus2Corporate is a **MERN-based placement management platform** designed to bring **students, colleges, recruiters, and administrators** together on a single platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform aims to simplify and digitize the complete campus placement lifecycle — from **student profile management and job applications to recruiter shortlisting and college placement management**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Project Overview
 
-## Expanding the ESLint configuration
+Traditional campus placement processes often involve multiple disconnected systems for student information, job opportunities, applications, eligibility checking, and placement tracking.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Campus2Corporate** provides a centralized platform where:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 👨‍🎓 Students can manage their profiles, skills and job applications.
+- 🏫 Colleges can manage placement activities and monitor student progress.
+- 💼 Recruiters can post opportunities, review eligible candidates and shortlist students.
+- 👨‍💻 Administrators can manage users and platform operations.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The project follows a **role-based architecture**, where each user gets access to features and workflows according to their role.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Key Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 👨‍🎓 Student Module
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Student profile management
+- Skills and academic information
+- View available job opportunities
+- Apply for eligible jobs
+- Track application status
+- Placement activity tracking
+
+### 🏫 College Module
+
+- Manage student information
+- Monitor student placement progress
+- Manage placement drives
+- Track applications and placement activities
+- View student profiles and placement status
+
+### 💼 Recruiter Module
+
+- Recruiter profile management
+- Create and manage job opportunities
+- Define job requirements and eligibility criteria
+- View candidate profiles
+- Shortlist eligible candidates
+- Manage recruitment workflow
+
+### 🛡️ Admin Module
+
+- User management
+- Role-based platform administration
+- Monitor system activities
+- Manage different platform modules
+
+---
+
+## 🔐 Authentication & Authorization
+
+Campus2Corporate implements secure authentication and role-based authorization.
+
+### Authentication
+
+- JWT-based authentication
+- Secure login and registration
+- Protected routes
+- Token-based API authorization
+
+### Role-Based Access Control
+
+Different users have different permissions:
+
+```text
+                    Campus2Corporate
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+       Student          Recruiter         College
+          │                │                │
+      Profile          Job Posts       Placement
+      Jobs             Candidates      Management
+      Applications     Shortlisting    Students
+                           │
+                           │
+                         Admin
+                           │
+                    Platform Control
